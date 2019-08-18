@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.bgImgX {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.bgImg1 {
+    height: 100%;
+    background-image: url(images/bmw100.jpg);
+}
+
+.bgImg2 {
+    height: 40%;
+    background-image: url(images/bmw101.jpg);
+}
+
+.bgImg3 {
+    height: 40%;
+    background-image: url(images/bmw102.jpg);
+}
+
+.bgImg4 {
+    height: 100%;
+    background-image: url(images/bmw103.jpg);
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.caption span {
+    background-color: #000;
+    opacity: .8;
+    padding: 10px;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.articleX {
+    background-color: white;
+    padding: 50px 80px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.articleX h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 1.25em;
+
+}
+.articleXDark {
+    background-color: #2B2E34;
+    color: white;
+    padding: 50px 80px;
+    font-family: 'Lato', sans-serif;
+
+}
